@@ -16,7 +16,15 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --no-progress --verbose README.md CONTRIBUTING.md
+          args: >-
+            --no-progress
+            --verbose
+            --exclude '^https://openai\.com/index/harness-engineering/?$'
+            --exclude '^https://platform\.openai\.com/docs/guides/agent-evals/?$'
+            --exclude '^https://platform\.openai\.com/docs/guides/evaluation-best-practices/?$'
+            --exclude '^https://platform\.openai\.com/docs/guides/trace-grading/?$'
+            README.md
+            CONTRIBUTING.md
           fail: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -87,14 +87,14 @@ These benchmarks are especially useful when you want to compare harness quality,
 ## Runtimes, Harnesses & Reference Implementations
 
 - [Agent Frameworks, Runtimes, and Harnesses, Oh My!](https://blog.langchain.com/agent-frameworks-runtimes-and-harnesses-oh-my/) - LangChain's decomposition of what belongs in a framework, a runtime, and a harness.
-- [Building agents with the Claude Agent SDK](https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk) - Anthropic's guide to a production-oriented agent SDK with sessions, tools, and orchestration support.
-- [How we built our multi-agent research system](https://www.anthropic.com/engineering/built-multi-agent-research-system) - Anthropic's architecture write-up for a multi-agent system with separation of roles and structured coordination.
+- [Building agents with the Claude Agent SDK](https://claude.com/blog/building-agents-with-the-claude-agent-sdk) - Anthropic's guide to a production-oriented agent SDK with sessions, tools, and orchestration support.
+- [How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system) - Anthropic's architecture write-up for a multi-agent system with separation of roles and structured coordination.
 - [deepagents](https://github.com/langchain-ai/deepagents) - LangChain's open-source project for building deeper, longer-running agents with middleware and harness patterns.
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) - A mature research coding agent that makes the harness, prompt, tools, and environment design directly inspectable.
 - [SWE-ReX](https://github.com/SWE-agent/SWE-ReX) - Sandboxed code execution infrastructure for AI agents, useful when harness work starts to merge into execution runtime design.
 - [AgentKit](https://github.com/inngest/agent-kit) - Inngest's TypeScript toolkit for building durable, workflow-aware agents on top of event-driven infrastructure.
-- [Harbor](https://github.com/laude-institute/harbor) - A generalized harness for evaluating and improving agents at scale, released alongside Terminal-Bench 2.0.
-- [Terminal-Bench](https://github.com/laude-institute/terminal-bench) - The open-source terminal benchmark implementation behind many shell-native agent evaluations.
+- [Harbor](https://github.com/harbor-framework/harbor) - A generalized harness for evaluating and improving agents at scale, released alongside Terminal-Bench 2.0.
+- [Terminal-Bench](https://github.com/harbor-framework/terminal-bench) - The open-source terminal benchmark implementation behind many shell-native agent evaluations.
 
 ## Contributing
 
