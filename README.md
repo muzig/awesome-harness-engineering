@@ -25,6 +25,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 
 ## Foundations
 
+- [Agent Harness for Large Language Model Agents: A Survey](https://www.preprints.org/manuscript/202604.0428) - A survey that formalizes, taxonomizes, and frames harness design for long-running LLM agents as a distinct research area.
 - [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/) - OpenAI's flagship field report on building a large application with Codex using architectural constraints, repo-local instructions, browser validation, and telemetry.
 - [Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents) - Anthropic's core article on initializer agents, feature lists, `init.sh`, self-verification, and handoff artifacts across many context windows.
 - [Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps) - Anthropic follow-up focused on improving long-running app generation with better task state and evaluator design.
